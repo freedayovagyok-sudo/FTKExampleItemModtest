@@ -1,0 +1,16 @@
+{
+  "name": "Example Item Mod",
+  "version": "1.0.0",
+  "description": "An example mod that adds custom items to the game",
+  "author": "freedayovagyok-sudo",
+  "license": "MIT",
+  "created": "2025-12-18T17:48:30Z",
+  "modType": "item",
+  "dependencies": [],
+  "tags": [
+    "items",
+    "example"
+  ],
+  "minGameVersion": "1.0.0",
+  "maxGameVersion": "latest"
+}
