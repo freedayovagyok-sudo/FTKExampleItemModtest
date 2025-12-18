@@ -1,35 +1,36 @@
 {
-  "id": "FocusItemMod",
-  "name": "Focus Item Mod",
-  "version": "1.0.0",
-  "description": "Adds focus-enhancing items to the game with unique effects and interactions.",
-  "author": "freedayovagyok-sudo",
-  "license": "MIT",
-  "websiteUrl": "https://github.com/freedayovagyok-sudo/FTKExampleItemModtest",
-  "repositoryUrl": "https://github.com/freedayovagyok-sudo/FTKExampleItemModtest",
-  "downloadUrl": "https://github.com/freedayovagyok-sudo/FTKExampleItemModtest/releases",
-  "iconUrl": "",
-  "dependencies": [
-    "BepInEx-BepInExPack-5.4.21"
-  ],
-  "gameVersion": "1.0.0",
-  "networkMode": "none",
-  "tags": [
-    "items",
-    "gameplay",
-    "focus",
-    "enhancement"
-  ],
-  "categories": [
-    "Gameplay",
-    "Items"
-  ],
-  "maintainers": [
-    {
-      "username": "freedayovagyok-sudo",
-      "email": ""
+  "Name": "Focus Item Mod",
+  "Author": "freedayovagyok-sudo",
+  "Version": "1.0.0",
+  "GameVersion": "1.100.11378",
+  "Description": "A professional mod for For The King that introduces the Focus item, providing both healing and focus bonuses to enhance gameplay.",
+  "ModType": "Item",
+  "ItemName": "Focus",
+  "ItemType": "Consumable",
+  "ItemRarity": "Rare",
+  "Bonuses": {
+    "HealthRestore": {
+      "Type": "Healing",
+      "Value": 25,
+      "Description": "Restores 25 health points to the user"
+    },
+    "FocusBonus": {
+      "Type": "Focus",
+      "Value": 15,
+      "Duration": "Permanent",
+      "Description": "Increases focus by 15 points"
     }
-  ],
-  "timeCreated": "2025-12-18T18:04:38Z",
-  "timeUpdated": "2025-12-18T18:04:38Z"
+  },
+  "CreatedDate": "2025-12-18T18:03:15Z",
+  "ModCompatibility": {
+    "MinimumGameVersion": "1.100.11378",
+    "PreviousVersionsSupport": false
+  },
+  "Tags": [
+    "Item",
+    "Healing",
+    "Focus",
+    "Consumable",
+    "Utility"
+  ]
 }
