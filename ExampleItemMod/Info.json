@@ -1,16 +1,35 @@
 {
-  "name": "Example Item Mod",
+  "id": "FocusItemMod",
+  "name": "Focus Item Mod",
   "version": "1.0.0",
-  "description": "An example mod that adds custom items to the game",
+  "description": "Adds focus-enhancing items to the game with unique effects and interactions.",
   "author": "freedayovagyok-sudo",
   "license": "MIT",
-  "created": "2025-12-18T17:48:30Z",
-  "modType": "item",
-  "dependencies": [],
+  "websiteUrl": "https://github.com/freedayovagyok-sudo/FTKExampleItemModtest",
+  "repositoryUrl": "https://github.com/freedayovagyok-sudo/FTKExampleItemModtest",
+  "downloadUrl": "https://github.com/freedayovagyok-sudo/FTKExampleItemModtest/releases",
+  "iconUrl": "",
+  "dependencies": [
+    "BepInEx-BepInExPack-5.4.21"
+  ],
+  "gameVersion": "1.0.0",
+  "networkMode": "none",
   "tags": [
     "items",
-    "example"
+    "gameplay",
+    "focus",
+    "enhancement"
   ],
-  "minGameVersion": "1.0.0",
-  "maxGameVersion": "latest"
+  "categories": [
+    "Gameplay",
+    "Items"
+  ],
+  "maintainers": [
+    {
+      "username": "freedayovagyok-sudo",
+      "email": ""
+    }
+  ],
+  "timeCreated": "2025-12-18T18:04:38Z",
+  "timeUpdated": "2025-12-18T18:04:38Z"
 }
